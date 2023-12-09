@@ -18,6 +18,8 @@ configurations {
 }
 
 repositories {
+    mavenLocal()
+    maven { url 'https://maven.proxy.ustclug.org/maven2' }
     mavenCentral()
 }
 
